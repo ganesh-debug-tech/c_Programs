@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1770355622 source:c:\svpcet\factofreward\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1770278731 source:c:\svpcet\leapyearornot\main.c
+	<stdio.h>
+

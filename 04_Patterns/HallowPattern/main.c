@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+    int rows;
+    scanf("%d",&rows);
+
+    // Outer loop to iterator through each row
+    for (int i = 0; i < rows; i++)
+    {
+
+        // Inner loop to print * star in each row
+        for (int j = 0; j < rows; j++)
+        {
+
+            // Statement to check boundry condition
+            if (i > 0 && i < rows - 1 && j > 0 && j < rows - 1)
+            {
+                printf("  ");
+            }
+            else
+            {
+                printf("* ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
